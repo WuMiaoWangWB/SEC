@@ -1,2 +1,2 @@
 # Software-Project-Classwork
-制作一个博客网站
+制作一个候车助手APP
