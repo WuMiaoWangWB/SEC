@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="个人中心"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:id="@+id/tvpct"
+        android:text="  头像"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tv1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textbox"/>
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:id="@+id/tvn"
+        android:text="  昵称"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tvpct"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textbox"/>
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:id="@+id/tvsex"
+        android:text="  性别"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tvn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textbox"/>
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:id="@+id/tvage"
+        android:text="  年龄"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tvsex"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textbox"/>
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:id="@+id/tvpw"
+        android:text="  登录密码"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tvage"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textbox"/>
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:id="@+id/tvph"
+        android:text="  手机号码"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tvpw"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textbox"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tc"
+        android:text="退出登录"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvph"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textbox"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_pct"
+        android:layout_toLeftOf="@+id/btn_pct"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/textbox"/>
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:id="@+id/btn_pct"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+</RelativeLayout>
