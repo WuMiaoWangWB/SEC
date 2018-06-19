@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv1"
-            android:text="@+string/editTitle"
+            android:text="编辑资料"
             android:textSize="25sp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
@@ -33,10 +33,12 @@
             android:layout_height="50dp"
             android:id="@+id/editSet"
             android:textSize="20sp"
-            android:text="@+string/tip"
+            android:text=""
             android:layout_marginTop="20dp"
             android:background="@drawable/labelbox"
-            android:gravity="center_vertical"/>
+            android:gravity="center_vertical" >
+            <requestFocus />
+        </EditText>
         <Button
             android:layout_width="25dp"
             android:layout_height="25dp"
@@ -50,7 +52,8 @@
             android:layout_height="50dp"
             android:id="@+id/editSure"
             android:textSize="20sp"
-            android:text="@+string/sure"
+            android:text="请确认你的密码"
+            android:textColor="#55555555"
             android:layout_below="@+id/editSet"
             android:layout_marginTop="20dp"
             android:background="@drawable/labelbox"
@@ -73,7 +76,7 @@
             android:text="确认"
             android:textSize="25sp"
             android:background="#9900ff00"
-            android:layout_below="@id/editSet"
+            android:layout_below="@id/editSure"
             android:layout_marginTop="20dp"
             android:layout_centerHorizontal="true"/>
     </RelativeLayout>

@@ -30,17 +30,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
-            android:layout_width="375dp"
+            android:layout_width="match_parent"
             android:layout_height="45dp"
             android:id="@+id/tvpct"
             android:text="  头像"
             android:textSize="20sp"
             android:gravity="center_vertical"
             android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/textbox"/>
         <TextView
-            android:layout_width="375dp"
+            android:layout_width="match_parent"
             android:layout_height="45dp"
             android:id="@+id/tvn"
             android:text="  昵称"
@@ -48,10 +49,11 @@
             android:gravity="center_vertical"
             android:layout_below="@id/tvpct"
             android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/textbox"/>
         <TextView
-            android:layout_width="375dp"
+            android:layout_width="match_parent"
             android:layout_height="45dp"
             android:id="@+id/tvsex"
             android:text="  性别"
@@ -59,10 +61,11 @@
             android:gravity="center_vertical"
             android:layout_below="@id/tvn"
             android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/textbox"/>
         <TextView
-            android:layout_width="375dp"
+            android:layout_width="match_parent"
             android:layout_height="45dp"
             android:id="@+id/tvage"
             android:text="  年龄"
@@ -70,10 +73,11 @@
             android:gravity="center_vertical"
             android:layout_below="@id/tvsex"
             android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/textbox"/>
         <TextView
-            android:layout_width="375dp"
+            android:layout_width="match_parent"
             android:layout_height="45dp"
             android:id="@+id/tvpw"
             android:text="  登录密码"
@@ -81,10 +85,11 @@
             android:gravity="center_vertical"
             android:layout_below="@id/tvage"
             android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/textbox"/>
         <TextView
-            android:layout_width="375dp"
+            android:layout_width="match_parent"
             android:layout_height="45dp"
             android:id="@+id/tvph"
             android:text="  手机号码"
@@ -92,6 +97,7 @@
             android:gravity="center_vertical"
             android:layout_below="@id/tvpw"
             android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/textbox"/>
         <Button
@@ -170,7 +176,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_n"
-            android:text="@string/name"
+            android:text=""
             android:textSize="20sp"
             android:textColor="#0000ff"
             android:enabled="false"
@@ -182,7 +188,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_s"
-            android:text="@string/sex"
+            android:text=""
             android:textSize="20sp"
             android:textColor="#0000ff"
             android:enabled="false"
@@ -194,7 +200,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_a"
-            android:text="@string/age"
+            android:text=""
             android:textSize="20sp"
             android:textColor="#0000ff"
             android:enabled="false"
@@ -206,7 +212,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_pw"
-            android:text="@string/password"
+            android:text=""
             android:textSize="20sp"
             android:password="true"
             android:textColor="#0000ff"
@@ -219,7 +225,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_ph"
-            android:text="@string/phone"
+            android:text=""
             android:textSize="20sp"
             android:textColor="#0000ff"
             android:enabled="false"
